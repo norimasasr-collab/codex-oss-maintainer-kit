@@ -1,0 +1,4 @@
+interface:
+  display_name: "Release Notes JA"
+  short_description: "Draft OSS release notes in Japanese"
+  default_prompt: "Use $release-notes-ja to draft Japanese release notes from these changes."

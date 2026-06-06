@@ -1,0 +1,4 @@
+interface:
+  display_name: "Issue Triage JA"
+  short_description: "Triage OSS issues in Japanese"
+  default_prompt: "Use $issue-triage-ja to classify this issue and draft a maintainer response."

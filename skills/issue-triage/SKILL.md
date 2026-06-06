@@ -1,6 +1,6 @@
 ---
 name: issue-triage-ja
-description: Triage GitHub issues in Japanese and suggest labels, priority, and maintainer next actions.
+description: Triage GitHub issues in Japanese by classifying the report, suggesting labels and priority, identifying missing reproduction details, and drafting a maintainer response. Use for bug reports, feature requests, questions, and incomplete issue reports.
 ---
 
 # Issue Triage JA
@@ -13,6 +13,7 @@ Use this skill when triaging issues for an open-source project.
 - Identify missing information.
 - Suggest labels.
 - Estimate priority.
+- Identify whether the report is reproducible from the supplied information.
 - Draft a short maintainer response in Japanese.
 
 ## Output Format
@@ -23,6 +24,7 @@ Use this skill when triaging issues for an open-source project.
 Type:
 Priority:
 Suggested labels:
+Reproducible:
 
 ## Missing Information
 
@@ -41,3 +43,5 @@ Use common labels when possible:
 - needs-info
 - good-first-issue
 - help-wanted
+
+Do not invent reproduction results or project behavior that was not provided.

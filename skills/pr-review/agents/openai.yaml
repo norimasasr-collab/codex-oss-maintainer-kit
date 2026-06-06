@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR Review JA"
+  short_description: "Review OSS pull requests in Japanese"
+  default_prompt: "Use $pr-review-ja to review this pull request for bugs, regressions, and missing tests."

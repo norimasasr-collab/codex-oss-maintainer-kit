@@ -1,6 +1,6 @@
 ---
 name: pr-review-ja
-description: Review GitHub pull requests in Japanese with a maintainer-focused checklist.
+description: Review GitHub pull requests in Japanese, prioritizing correctness bugs, regressions, security risks, missing tests, and actionable maintainer feedback. Use when a user asks to review a PR, patch, or proposed code change for an open-source project.
 ---
 
 # PR Review JA
@@ -10,10 +10,11 @@ Use this skill when reviewing a pull request for an open-source project.
 ## Review Priorities
 
 1. Identify correctness bugs and behavioral regressions.
-2. Check whether tests cover the changed behavior.
-3. Check whether documentation or README updates are needed.
-4. Look for maintainability issues that will matter to future contributors.
-5. Keep comments actionable and respectful.
+2. Identify security, privacy, and data-loss risks.
+3. Check whether tests cover the changed behavior and failure paths.
+4. Check whether documentation or README updates are needed.
+5. Look for maintainability issues that will matter to future contributors.
+6. Keep comments actionable and respectful.
 
 ## Output Format
 
@@ -40,3 +41,4 @@ Use this structure:
 
 Do not focus on style preferences unless they create real maintenance risk.
 Prefer specific file and line references when available.
+Do not claim that tests passed unless you actually ran them.
